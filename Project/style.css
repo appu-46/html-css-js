@@ -1,0 +1,156 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(243, 243, 243);
+  background-color: #111;
+}
+/* a {
+  color: #1ac9e4;
+} */
+
+.home-page a:hover {
+  color: none;
+}
+.home-page a:active {
+  color: none;
+  font-style: none;
+}
+
+.main-header {
+  /* padding-bottom: 20px; */
+  border-bottom: 7px solid #1ac9e4;
+}
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  /* margin-bottom: 5px; */
+}
+h2 {
+  font-size: 40px;
+  /* margin-bottom: 30px; */
+}
+h3 {
+  font-size: 30px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 15px; */
+}
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  /* margin-bottom: 5px; */
+}
+
+li {
+  /*text-align: center;-->*/
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+footer p {
+  font-size: 16px;
+}
+
+nav a:link {
+  padding-left: 10px;
+  font-size: 20px;
+}
+aside {
+  margin-top: 20px;
+  border-top: 5px solid #1ac9e4;
+  border-bottom: 5px solid #1ac9e4;
+  flex: 0 0 300px;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+/* article,
+aside {
+  padding-left: 250px;
+  padding-right: 250px;
+} */
+
+a:link {
+  color: #1ac9e4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1aa3b8;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: #fff;
+  font-style: italic;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+/* FLEXBOX */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  /* margin: 0px; */
+  gap: 20px;
+}
+
+.related-link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+}
+
+.related-author {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+/* .related {
+  margin
+} */
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
